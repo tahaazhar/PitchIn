@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "773531147232",
+    "firebase_url": "https://pitchin-28184.firebaseio.com",
+    "project_id": "pitchin-28184",
+    "storage_bucket": "pitchin-28184.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:773531147232:android:50c3497795a060d9",
+        "android_client_info": {
+          "package_name": "com.example.taha.pitchin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "773531147232-pir06r2berf2m94lpgk6khjb0d70036n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.taha.pitchin",
+            "certificate_hash": "73edfecb41041b8d12c5ae2311fbb0fab6c26f23"
+          }
+        },
+        {
+          "client_id": "773531147232-us5lv2elsecuao4fgqb6mtorqb5tfk0p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUdxXoFB9OjG5Mj9M6RaSAB8OcSPPTcl4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "773531147232-us5lv2elsecuao4fgqb6mtorqb5tfk0p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
