@@ -30,20 +30,50 @@
         android:textSize="20sp" />
 
     <EditText
+        android:id="@+id/SignUpEmail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="160dp"
         android:hint="Email Address"
-        android:id="@+id/email"
         android:singleLine="false" />
 
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignBottom="@+id/SignUpEmail"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="-66dp"
+        android:fontFamily="sans-serif-small"
+        android:text="Create your Pitch-In password "
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/SignUpPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/SignUpEmail"
+        android:layout_alignBottom="@+id/SignUpEmail"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="88dp"
+        android:layout_marginBottom="-165dp"
+        android:hint="Password"
+        android:singleLine="false"
+        android:inputType="textPassword"/>
+
+
+
+
+
     <Button
+        android:id="@+id/contSignUp"
         android:layout_width="match_parent"
         android:layout_height="68dp"
         android:layout_alignParentBottom="true"
-
         android:layout_marginBottom="12dp"
         android:background="@color/white"
         android:text="Continue"

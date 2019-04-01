@@ -32,13 +32,14 @@
         android:singleLine="false" />
 
     <Button
+        android:id="@+id/contDOB"
         android:layout_width="match_parent"
         android:layout_height="68dp"
         android:layout_alignParentBottom="true"
 
         android:layout_marginBottom="12dp"
         android:background="@color/white"
-        android:text="Continue"
+        android:text="Ready to save some money?"
         android:textColor="@color/gradStop" />
 
 

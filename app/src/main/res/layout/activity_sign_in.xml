@@ -139,11 +139,12 @@
         android:layout_height="wrap_content">
 
         <Button
+            android:id="@+id/signUp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@color/transparent"
-            android:text="SingUp Now"
-            android:textAllCaps="true"
+            android:text="Sing-Up Now"
+            android:textAllCaps="false"
             android:fontFamily="sans-serif"/>
         <Button
             android:layout_width="wrap_content"
