@@ -8,54 +8,56 @@
     android:background="@drawable/as"
     >
     <TextView
-        android:id="@+id/text1"
+        android:id="@+id/cameraText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="125dp"
-        android:fontFamily="sans-serif-small"
-        android:text="Student Id"
-        android:textSize="25sp" />
+        android:text="Tap on the camera icon to choose a picture"
+        android:paddingTop="60dp"
+        android:textSize="25sp"
+        android:textAlignment="center"/>
+    
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:background="@drawable/ic_camera_alt_black_24dp"
+        android:layout_below="@+id/cameraText"
+        android:layout_above="@+id/text1"
+        android:layout_margin="20dp"
+        android:layout_centerHorizontal="true"/>
 
-    <!--<TextView-->
-    <!--android:id="@+id/text2"-->
-    <!--android:layout_width="wrap_content"-->
-    <!--android:layout_height="wrap_content"-->
-    <!--android:layout_alignParentTop="true"-->
-    <!--android:layout_centerHorizontal="true"-->
-    <!--android:layout_marginTop="138dp"-->
-    <!--android:fontFamily="sans-serif-small"-->
-    <!--android:text="University law requires this"-->
-    <!--android:textSize="25sp" />-->
-
-    <!--<TextView-->
-    <!--android:id="@+id/text3"-->
-    <!--android:layout_width="wrap_content"-->
-    <!--android:layout_height="wrap_content"-->
-    <!--android:layout_alignParentTop="true"-->
-    <!--android:layout_centerHorizontal="true"-->
-    <!--android:layout_marginTop="184dp"-->
-    <!--android:fontFamily="sans-serif-small"-->
-    <!--android:text="to secure your transactions..."-->
-    <!--android:textSize="25sp" />-->
-
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:paddingBottom="260dp"
+        android:visibility="gone"/>
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:layout_centerInParent="true"
+        android:textSize="25sp"
+        android:text="Enter Your University Id"/>
+    
     <EditText
-        android:id="@+id/id"
+        android:id="@+id/rollNo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="227dp"
-        android:hint="Enter your Id"
-
-        android:singleLine="false" />
+        android:layout_below="@id/txt"
+        android:layout_centerInParent="true"
+        android:textSize="25sp"
+        android:hint="XX-XXXXX"/>
+    
 
     <Button
+        android:id="@+id/contID"
         android:layout_width="match_parent"
         android:layout_height="68dp"
         android:layout_alignParentBottom="true"
-
         android:layout_marginBottom="12dp"
         android:background="@color/white"
         android:text="Continue"
