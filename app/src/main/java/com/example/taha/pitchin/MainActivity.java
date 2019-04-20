@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.newCommittee:
-                Intent i= new Intent(this,newCommitteeActivity.class);
+                Intent i= new Intent(this,newComittee.class);
                 startActivity(i);
                 Toast.makeText(this, "New Committee", Toast.LENGTH_LONG).show();
                 break;
