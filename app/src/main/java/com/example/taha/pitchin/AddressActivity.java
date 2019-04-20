@@ -3,7 +3,7 @@ package com.example.taha.pitchin;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class address extends AppCompatActivity {
+public class AddressActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
