@@ -91,6 +91,7 @@ public class SignInActivity extends AppCompatActivity implements View.OnClickLis
         mAuth.signInWithEmailAndPassword(Mail,Password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
+                progressBar.setVisibility(View.GONE);
                 if(task.isSuccessful()){
                     Intent main = new Intent(SignInActivity.this, MainActivity.class);
                     main.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
